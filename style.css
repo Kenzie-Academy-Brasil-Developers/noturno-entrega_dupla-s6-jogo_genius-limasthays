@@ -1,0 +1,84 @@
+body{
+    font-family: 'Space Mono', monospace;
+}
+.container{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.circuloPreto{
+    background-color: #0a0903;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 200px;
+    border: 2px solid #0a0903;
+
+}
+
+.circuloPreto div{
+    border: 8px solid #0a0903;
+}
+
+#verde{
+    box-sizing: border-box;
+    background-color: #157f1f;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 200px;
+}
+
+#vermelho{
+    box-sizing: border-box;
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 200px;
+}
+
+#azul{
+    box-sizing: border-box;
+    background-color: #1446a0;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 200px;
+}
+
+#amarelo{
+    box-sizing: border-box;
+    background-color: #ffa51f;
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.circuloCentro{
+    box-sizing: border-box;
+    background-color: #0a0903;
+    width: 210px;
+    height: 210px;
+    border-radius: 210px;
+    margin-left: -300px;
+    margin-top: -100px;
+    display: flex;
+
+}
+
+.textosDeDentro{
+    color: antiquewhite;
+    text-align: center;
+    align-self:center;
+
+}
