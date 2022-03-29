@@ -2,7 +2,7 @@ body{
     font-family: 'Space Mono', monospace;
 }
 .container{
-    background-color:blanchedalmond;
+    background-color: #1a1812;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +40,24 @@ body{
     border-top-left-radius: 200px;
 }
 
+#verde:hover{
+    -webkit-box-shadow: -15px -15px 36px 22px #63E670; 
+    box-shadow: -15px -15px 36px 4px #63E670;
+    background-color: #63E670;
+}
+
 #vermelho{
     box-sizing: border-box;
     background-color: #ff0000;
     width: 200px;
     height: 200px;
     border-top-right-radius: 200px;
+}
+
+#vermelho:hover{
+    -webkit-box-shadow: 15px -15px 36px 22px #FF8080; 
+    box-shadow: 15px -15px 36px 4px #FF8080;
+    background-color: #FF8080;
 }
 
 #azul{
@@ -56,12 +68,24 @@ body{
     border-bottom-left-radius: 200px;
 }
 
+#azul:hover{
+    -webkit-box-shadow: -15px 15px 36px 22px #6B99ED; 
+    box-shadow: -15px 15px 36px 22px #6B99ED;
+    background-color: #6B99ED;
+}
+
 #amarelo{
     box-sizing: border-box;
     background-color: #ffa51f;
     width: 200px;
     height: 200px;
     border-bottom-right-radius: 200px;
+}
+
+#amarelo:hover{
+    -webkit-box-shadow: 15px 15px 36px 22px #C6B241; 
+    box-shadow: 15px 15px 36px 22px #C6B241;
+    background-color: #C6B241;
 }
 
 .circuloCentro{
